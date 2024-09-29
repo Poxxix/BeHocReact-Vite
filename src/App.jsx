@@ -6,6 +6,10 @@ import './App.css'
 function App() {
   const [count, setCount] = useState(0)
 
+  const myFuncion = () => {
+    console.log("My funcion")
+  }
+  myFuncion();
   return (
     <>
       <div>
